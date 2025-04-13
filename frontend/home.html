@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PackPal - Travel Organizer</title>
+    <meta name="description" content="Group Travel Organizer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img src="Logo.jpg" alt="PackPal Logo" width="36" height="36" />
+            <span class="logo-text">PackPal</span>
+          </div>
+          <nav class="nav-menu" id="nav-menu">
+            <a href="#features-section" class="nav-link">Features</a>
+            <a href="#" class="nav-link" data-content="how-it-works">How It Works</a>
+          </nav>
+          <div class="header-buttons">
+            <button class="gradient-button" id="login-btn">Log In</button>
+            <button class="mobile-menu-toggle" id="menu-toggle">
+              <i class="fas fa-bars" id="menu-icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobile-menu">
+        <div class="container">
+          <nav class="mobile-nav">
+            <a href="#features-section" class="mobile-nav-link">Features</a>
+            <a href="#" class="mobile-nav-link">How It Works</a>
+            <div class="mobile-button-container">
+              <button class="gradient-button w-full">Log In</button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="bg-gradient"></div>
+      <div class="animated-circle circle-1"></div>
+      <div class="animated-circle circle-2"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="title-main">PackPal</span>
+            <span class="title-sub">Group Travel Organizer</span>
+          </h1>
+          <p class="hero-description">
+            Simplify group travel planning with collaborative tools, role-based access, and real-time tracking.
+          </p>
+          <div class="hero-buttons">
+            <button class="gradient-button" id="get-started-btn">Get Started</button>
+            <button class="gradient-button outlined-button" id="learn-more-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login-section" class="section">
+      <div class="container">
+        <h2 class="section-title">Get Started with PackPal</h2>
+        <div class="info-cards">
+          <div class="info-card">
+            <h3 class="card-title">Role-Based Access</h3>
+            <p class="card-text">
+              <span class="highlight">Owner:</span> Full control over events and permissions.<br>
+              <span class="highlight">Admin:</span> Manage tasks and responsibilities.<br>
+              <span class="highlight">Member:</span> Update assigned tasks.<br>
+              <span class="highlight">Viewer:</span> Monitor progress.
+            </p>
+          </div>
+          <div class="info-card">
+            <h3 class="card-title">Real-Time Updates</h3>
+            <p class="card-text">
+              Track progress with intuitive dashboards and progress bars.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">Ready for Your Next Adventure?</h2>
+          <p class="cta-description">
+            Join thousands of travelers using PackPal for stress-free group travel planning.
+          </p>
+          <div class="cta-button-container">
+            <button class="gradient-button" id="start-packing-btn">Start Packing Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gradient-overlay"></div>
+    </section>
+
+    <script src="home.js"></script>
+  </body>
+</html>
